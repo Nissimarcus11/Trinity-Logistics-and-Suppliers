@@ -1,0 +1,60 @@
+
+========================== fetching Suppliers ==============================================
+
+$sql = "SELECT *, CONCAT(prefix,id) AS 'SupplierID' FROM Supplier ";
+
+
+$result = mysqli_query($con, $sql);
+
+// Find the number of records returned
+$num = mysqli_num_rows($result);
+
+echo $num;
+echo " records found in the DataBase<br>";
+// Display the rows returned by the sql query
+if($num> 0){
+
+    // We can fetch in a better way using the while loop
+    while($row = mysqli_fetch_assoc($result)){
+        // echo var_dump($row);
+        echo "<hr><b>SupplierId:</b>".$row['SupplierID']."<br><b>Name:</b> ".$row['name']."<br><b>Email</b> ". $row['email']."<br><b>Phone</b> ".$row['phone'];
+        echo "<br><hr>";
+       
+    }
+
+
+}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx End of fetching Suppliers xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+============================ Fetching Products =============================
+
+$sql = "SELECT *, CONCAT(prefix,id) AS 'ProductID' FROM productid";
+
+
+$result = mysqli_query($con, $sql);
+
+// Find the number of records returned
+$num = mysqli_num_rows($result);
+
+echo $num;
+echo " records found in the DataBase<br>";
+// Display the rows returned by the sql query
+if($num> 0){
+
+    // We can fetch in a better way using the while loop
+    while($row = mysqli_fetch_assoc($result)){
+        // echo var_dump($row);
+        echo "<hr><b>ProductId:</b>".$row['ProductID']."<br><b>Name:</b> ".$row['name'];
+        echo "<br><hr>";
+       
+    }
+
+
+}
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx end of Fetching Products xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
