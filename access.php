@@ -65,6 +65,7 @@ else{
     $sql_cmd = "SELECT * from `product locations`";
     $result = mysqli_query($con,$sql_cmd);
     while($row = mysqli_fetch_assoc($result)) {
+        $sid = $row['SupplierID'];
         $LOCid = substr($row['LocationID'],3,6);
         $query = "SELECT * from locations WHERE id = $LOCid";
         $res = mysqli_query($con,$query); 
@@ -73,17 +74,28 @@ else{
             $long = $locrow['longitude'];
             
         }
-
-        echo '<div class=" col-sm-12 col-md-6 col-lg-4">
+        
+        // $id = substr($sid,3,6);
+        // echo $id." is the numerical id of the supplier";
+        // $temp = "SELECT name, email, phone from supplier where id = $id";
+        // $res = mysqli_query($con,$temp);
+        
+        // while($row1 = mysqli_fetch_assoc($res)) {
+        //   $data = "";
+        //   foreach ($row1 as $i){
+        //     $data = $data.$i.'<br>';
+        //   } 
+        // }
+            echo '<div class=" col-sm-12 col-md-6 col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
                             <img src="assets/images/product.jpg" alt="">
                         </div>
                         <div class="down-content">';
-
+                        
                             echo '<span>'. $row['ProductID'] . '</span>
                                 <h4>'.$row['Name'].'</h4>
-                                <p> Supplied by <a href="#">'.$row['SupplierID'].'</a></p>
+                                <p> Supplied by <a href="#">'.$sid.'</a></p>
                                 <p> Available at <a href="https://maps.google.com/?q='.$lat.','.$long.'" target = "blank">'.$row['LocationID'].'</a></p>
                                 <p>'.$row['description'].'</p>
 
@@ -91,10 +103,14 @@ else{
                         </div>
                     </div>
                 </div>';
+                
+                
+                
         
         
     
     }
+    
 }
 }
 
