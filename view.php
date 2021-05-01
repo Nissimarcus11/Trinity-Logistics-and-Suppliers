@@ -4,13 +4,11 @@
 
 <!-- page-about-us01:28-->
 <head>
-    <title>Nile - Transportation and Logistics Responsive HTML5 Template</title>
-    <meta name="author" content="Nile-Theme">
+    <title>View | Trinity</title>
+   
     <meta name="robots" content="index follow">
     <meta name="googlebot" content="index follow">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="cargo, clean, contractor, corporate, freight, industry, localization, logistics, modern, shipment, transport, transportation, truck, trucking">
-    <meta name="description" content="Transportation and Logistics Responsive HTML5 Template">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800%7CPoppins:300i,300,400,500,600,700,400i,500%7CDancing+Script:700%7CDancing+Script:700%7CGreat+Vibes:400%7CPoppins:400%7CDosis:800%7CRaleway:400,700,800&amp;subset=latin-ext" rel="stylesheet">
@@ -38,6 +36,14 @@
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <!-- fontawesome  -->
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <style>
+    #SupplierDetails{
+        /* border: 1px solid black; */
+        /* padding-left: 5px; */
+        /* font-size: 12px; */
+        /* background-color: grey; */
+    }
+    </style>
    
     <script>
         function showUser() {
@@ -63,7 +69,7 @@
 
 <body>
     <!--  Header  -->
-    <header class="background-white">
+    <header class="background-grey-3">
         <div class="header-output">
             <div class="header-output">
                 <div class="header-in">
@@ -74,9 +80,9 @@
                             <div class="row">
                                 <div class="col-xl-8 col-lg-12">
                                     <div class="row">
-                                        <div class="col-md-4"><i class="fa fa-phone margin-right-10px"></i> 00222 123 333 019</div>
-                                        <div class="col-md-4"><i class="fa fa-envelope-o margin-right-10px"></i> info@your-site.com</div>
-                                        <div class="col-md-4"><i class="fa fa-map-marker margin-right-10px"></i> 1105 Saudi Arabia - Street, CA</div>
+                                        <div class="col-md-4"><i class="fa fa-phone margin-right-10px"></i> +91 98497 65344 </div>
+                                        <div class="col-md-4"><i class="fa fa-envelope-o margin-right-10px"></i> info@trinity.com</div>
+                                        <div class="col-md-4"><i class="fa fa-map-marker margin-right-10px"></i> VIT-AP University, Amaravati</div>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 d-none d-xl-block">
@@ -121,21 +127,16 @@
                         <div class="position-relative">
                             <div class="row">
                                 <div class="col-lg-3 col-md-12">
-                                    <a id="logo" href="home-1.html" class="d-inline-block margin-tb-15px"><img src="assets/img/logo-dark.png" alt=""></a>
+                                    <a id="logo" href="home-1.html" class="d-inline-block margin-tb-15px"><img src="assets/images/logo_trans5.png" alt=""></a>
                                     <a class="mobile-toggle padding-15px background-second-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
                                 </div>
                                 <div class="col-lg-7 col-md-12 position-inherit">
                                     <ul id="menu-main" class="nav-menu float-xl-left text-lg-center link-padding-tb-25px dropdown-dark">
-                                        <li class="has-dropdown"><a href="#">Home</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="home-1.html">Home - Main Demo</a></li>
-                                                <li><a href="home-2.html">Home - Classic Layout</a></li>
-                                                <li><a href="home-3.html">Home - Modern Layout</a></li>
-                                                <li><a href="home-4.html">Home - Marine Transport</a></li>
-                                                <li><a href="home-5.html">Home - Moving Co</a></li>
-                                                <li><a href="home-6.html">Home - Company</a></li>
-                                            </ul>
-                                        </li>
+                                    <li class=""><a href="#">Home</a>
+                                        <ul class="sub-menu">
+                                            
+                                        </ul>
+                                    </li>
                                         <li class="has-dropdown"><a href="#">About</a>
                                             <ul class="sub-menu">
                                                 <li><a href="page-about-us.html">About Us</a></li>
@@ -148,68 +149,17 @@
                                         </li>
                                         <li class="has-dropdown"><a href="#">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service-single.html">Cargo Transportation</a></li>
-                                                <li><a href="service-single.html">Air Freight</a></li>
-                                                <li><a href="service-single.html">Ocean Freight</a></li>
-                                                <li><a href="service-single.html">Packaging and Storage</a></li>
-                                                <li><a href="service-single.html">Fast Delivery</a></li>
-                                                <li><a href="service-single.html">Railroad Transportation</a></li>
+                                                <li><a href="view.php
+                                                ">Views</a></li>
+                                            
                                             </ul>
                                         </li>
                                         <li class="has-dropdown"><a href="#">Blog</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar </a></li>
-                                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                                <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                                                <li><a href="blog-single.html">Post Detalis</a></li>
+
                                             </ul>
                                         </li>
-                                        <li class="mega-menu mega-links mega-links-4columns"><a href="#">Elements</a>
-                                            <div class="mega-menu-out sub-menu-out">
-                                                <ul class="sub-menu-columns">
-                                                    <li>
-                                                        <a href="#">Default Elements</a>
-                                                        <ul class="mega-menu-list">
-                                                            <li><a href="elements-accordions.html">accordions</a></li>
-                                                            <li><a href="elements-action-box.html">Call To Action</a></li>
-                                                            <li><a href="elements-alert-messages.html">alert messages</a></li>
-                                                            <li><a href="elements-icon-box.html">Icon Box</a></li>
-                                                            <li><a href="elements-blog-post.html">blog post</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Interactive Elements</a>
-                                                        <ul class="mega-menu-list">
-                                                            <li><a href="elements-clients.html">clients</a></li>
-                                                            <li><a href="elements-columns-grids.html">columns grids</a></li>
-                                                            <li><a href="elements-counters.html">counters</a></li>
-                                                            <li><a href="elements-testimonial.html">Testimonial</a></li>
-                                                            <li><a href="elements-price-table.html">Price Table</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Shop Pages</a>
-                                                        <ul class="mega-menu-list">
-                                                            <li><a href="shop-2-columns.html">Shop 2 Columns</a></li>
-                                                            <li><a href="shop-3-columns.html">Shop 3 Columns</a></li>
-                                                            <li><a href="shop-4-columns.html">Shop 4 Columns</a></li>
-                                                            <li><a href="shop-cart.html">cart</a></li>
-                                                            <li><a href="shop-product-single.html">product single </a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Headers & Footers</a>
-                                                        <ul class="mega-menu-list">
-                                                            <li><a href="elements-header-1.html">Header Layout 1</a></li>
-                                                            <li><a href="elements-header-2.html">Header Layout 2</a></li>
-                                                            <li><a href="elements-header-3.html">Header Layout 3</a></li>
-                                                            <li><a href="elements-footer-light.html">Footer - Light</a></li>
-                                                            <li><a href="elements-footer-dark.html">Footer - Dark</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
+                                        
 
                                     </ul>
 
@@ -219,52 +169,7 @@
                                         <a id="cart-link" class="model-link margin-right-25px text-dark opacity-hover-8" href="#">
                                     <span>3</span><i class="fa fa-shopping-cart"></i>
                                 </a>
-                                        <div class="cart-model">
-
-                                            <div class="media">
-                                                <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="assets/img/cart-1.jpg" alt="Generic placeholder image">
-									  </a>
-                                                <div class="media-body">
-                                                    <a href="#" class="close"><i class="fa fa-window-close"></i></a>
-                                                    <h5 class="mt-0"><a href="#">Cargo Transportation</a></h5>
-                                                    <h6 class="mt-0 font-2">1 X 250$</h6>
-                                                </div>
-                                            </div>
-
-                                            <div class="media">
-                                                <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="assets/img/cart-2.jpg" alt="Generic placeholder image">
-									  </a>
-                                                <div class="media-body">
-                                                    <a href="#" class="close"><i class="fa fa-window-close"></i></a>
-                                                    <h5 class="mt-0"><a href="#">Air Freight</a></h5>
-                                                    <h6 class="mt-0 font-2">1 X 250$</h6>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="media">
-                                                <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="assets/img/cart-3.jpg" alt="Generic placeholder image">
-									  </a>
-                                                <div class="media-body">
-                                                    <a href="#" class="close"><i class="fa fa-window-close"></i></a>
-                                                    <h5 class="mt-0"><a href="#">Packaging & Storage</a></h5>
-                                                    <h6 class="mt-0 font-2">1 X 250$</h6>
-                                                </div>
-                                            </div>
-
-                                            <div class="padding-0px">
-                                                <div class="cart-total background-main-color padding-lr-30px padding-tb-10px text-white">
-                                                    <div class="desc">Subtotal:</div>
-                                                    <div class="price"><strong>$71.00</strong></div>
-                                                    <div class="clearfix"></div>
-                                                </div>
-                                                <a href="#" class="btn btn-primary btn-lg btn-block">view cart</a>
-                                                <a href="#" class="btn btn-outline-primary btn-lg btn-block">Checkout</a>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                     <div class="d-none d-xl-block search-link pull-right model-link margin-top-15px">
                                         <a id="search-header" class="model-link margin-right-0px text-dark opacity-hover-8" href="#search">
@@ -275,7 +180,7 @@
                                 </div>
                                 <div class="col-lg-2 col-md-12  d-none d-lg-block">
                                     <a data-toggle="modal" data-target=".bd-example-modal-lg" href="#" class="btn btn-sm border-radius-30 margin-tb-20px text-white  background-main-color  box-shadow float-right padding-lr-20px margin-left-30px d-block">
-                          <i class="fa fa-envelope-o margin-right-10px"></i>  Get A Quote
+                          <i class="fa fa-envelope-o margin-right-10px"></i>  Login
                         </a>
                                 </div>
                             </div>
@@ -403,10 +308,10 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="about-us sm-mb-45px">
                         <div class="logo-footer margin-bottom-35px">
-                            <a href="#"><img src="assets/img/logo-1.png" alt=""></a>
+                            <a href="#"><img src="assets/images/logo_trans5.png" alt=""></a>
                         </div>
                         <div class="text margin-bottom-35px">
-                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            We are commited to reduce the cost of transport by finding the nearest supplier and provide promising low costs. 
                         </div>
                         <a href="#" class="nile-bottom sm">Read More</a>
                     </div>
@@ -416,11 +321,10 @@
                     <div class="nile-widget widget_nav_menu sm-mb-45px">
                         <h2 class="title">Our Services</h2>
                         <ul class="footer-menu">
-                            <li><a href="#">Cargo Transportation </a></li>
-                            <li><a href="#">Air Freight </a></li>
-                            <li><a href="#">Ocean Freight </a></li>
-                            <li><a href="#">Packaging & Storage </a></li>
-                            <li><a href="#">Air Freight </a></li>
+                            <li><a href="#">Cargo Transportation</a></li>
+                            <li><a href="#">Items Delivery</a></li>
+                            <li><a href="#">Finding Suppliers</a></li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -430,11 +334,8 @@
                     <div class="nile-widget widget_nav_menu sm-mb-45px">
                         <h2 class="title">Site Pages</h2>
                         <ul class="footer-menu">
-                            <li><a href="#">Cargo Transportation </a></li>
-                            <li><a href="#">Air Freight </a></li>
-                            <li><a href="#">Ocean Freight </a></li>
-                            <li><a href="#">Packaging & Storage </a></li>
-                            <li><a href="#">Air Freight </a></li>
+                            <li><a href="view.php">views</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -448,7 +349,7 @@
                                 <div class="icon margin-top-5px"><span class="icon_pin_alt"></span></div>
                                 <div class="text">
                                     <span class="title-in">Location :</span> <br>
-                                    <span class="font-weight-500 text-uppercase">US - Los Angeles</span>
+                                    <span class="font-weight-500 text-uppercase"> VIT-AP, Amaravti</span>
                                 </div>
                             </div>
                         </div>
@@ -458,7 +359,7 @@
                                 <div class="icon  margin-top-5px"><span class="icon_phone"></span></div>
                                 <div class="text">
                                     <span class="title-in">Call Us :</span><br>
-                                    <span class="font-weight-500 text-uppercase">00222123333019</span>
+                                    <span class="font-weight-500 text-uppercase">9849356261</span>
                                 </div>
                             </div>
                         </div>
@@ -471,7 +372,7 @@
             <div class="container padding-tb-50px">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="copy-right-text text-lg-left text-center sm-mb-15px"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a> </div>
+                        <div class="copy-right-text text-lg-left text-center sm-mb-15px"><a target="_blank" href="#">Product definition and validation</a> </div>
                     </div>
                     <div class="col-lg-6">
                         <!--  Social -->

@@ -75,17 +75,17 @@ else{
             
         }
         
-        // $id = substr($sid,3,6);
+        $id = substr($sid,3,6);
         // echo $id." is the numerical id of the supplier";
-        // $temp = "SELECT name, email, phone from supplier where id = $id";
-        // $res = mysqli_query($con,$temp);
+        $temp = "SELECT name, email from supplier where id = $id";
+        $res = mysqli_query($con,$temp);
         
-        // while($row1 = mysqli_fetch_assoc($res)) {
-        //   $data = "";
-        //   foreach ($row1 as $i){
-        //     $data = $data.$i.'<br>';
-        //   } 
-        // }
+        while($row1 = mysqli_fetch_assoc($res)) {
+          $data = "";
+          foreach ($row1 as $i){
+            $data = $data.$i.'<br>';
+          } 
+        }
             echo '<div class=" col-sm-12 col-md-6 col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
@@ -98,6 +98,8 @@ else{
                                 <p> Supplied by <a href="#">'.$sid.'</a></p>
                                 <p> Available at <a href="https://maps.google.com/?q='.$lat.','.$long.'" target = "blank">'.$row['LocationID'].'</a></p>
                                 <p>'.$row['description'].'</p>
+                                <hr>
+                                <p id="SupplierDetails">'.$data.'</p>
 
 
                         </div>
