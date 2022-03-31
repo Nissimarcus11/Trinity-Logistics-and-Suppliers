@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+
+/* 
+---------------------------------------------
+trainers
+--------------------------------------------- 
+*/
+
+#trainers { 
+  padding-bottom: 90px; 
+  min-height: 60vh;
+}
+
+#trainers .trainer-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+#trainers .trainer-item img {
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#trainers .trainer-item iframe {
+  border-radius: 5px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+}
+
+#trainers .trainer-item span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ed563b;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#trainers .trainer-item h4 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+#trainers .trainer-item p {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* 
+---------------------------------------------
+responsive
+--------------------------------------------- 
+*/
+
+
+@media (max-width: 992px) {
+
+  
+  .trainer-item {
+    margin-bottom: 30px;
+  }
+  
+
+}
+
